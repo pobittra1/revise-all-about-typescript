@@ -40,7 +40,7 @@
       "kunjan",
       "narai",
     ];
-    const [, , , love, ...meAndBro] = persons;
+    const [, , , love, ...meAndBro] = persons; // destructuring in array with rest operator. rest is meAndBro and love is aban, then first 3 comma of first 3 data of person.
     console.log(meAndBro, love);
   }
 }
