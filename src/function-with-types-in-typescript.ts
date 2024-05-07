@@ -13,7 +13,7 @@
     const substraction = (numOne: number, numTwo: number): number =>
       numOne - numTwo;
 
-    const resultOfSubtraction  = substraction(12,5);
+    const resultOfSubtraction = substraction(12, 5);
     console.log(resultOfSubtraction);
   }
 }
