@@ -29,20 +29,17 @@
   }
 
   {
-
-    
     //rest parameter with function
-    const restFunc = (...params: number[]): number[] => {
-      let previousNum: number = 0;
-      const additionOfNumbers = params.map((num: number): number => {
-        previousNum = previousNum + num;
-        console.log(previousNum);
-        return previousNum;
-      });
-      console.log(additionOfNumbers);
+    const restFunc = (...params: number[]): number => {
+      // let prevVal: number = 0;
+      const additionOfNumbers = params.reduce(
+        (prevVal: number, currVal: number) => {
+          return prevVal + currVal;
+        }
+      );
       return additionOfNumbers;
     };
     let result = restFunc(1, 2, 3, 4, 6, 4);
-    console.log(result[0]);
+    console.log(result);
   }
 }
