@@ -1,6 +1,7 @@
 {
     //polymorphism---that means method's are same in another class also output type same but output is different- its polymorphism.
     class Person{
+        //here as we can se that geetSlepp function in every class and return void but result is diferent like 8 hours, 7 hours , 6 hours --its polymorphism.
         getSleep():void{
             console.log("person is sleeping 8 hours");
         }
