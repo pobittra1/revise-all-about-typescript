@@ -25,6 +25,8 @@
     //fetching data from online platforms.
     //we don't need to create Promise causes when server send me data, it can return me Promise.
 
+
+    //its for server data structure. array of object
     type TPostData = [
         {
             userid:number;
