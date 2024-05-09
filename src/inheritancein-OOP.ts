@@ -39,8 +39,8 @@
 
   //then create instance with new keyword
   const instanceOfPerson = new Person("aban", 20, "hariyana");
-  console.log(instanceOfPerson.showSomething());
-  const instanceOfStudent = new Student("vumi",21,"hariyana",true);
-  console.log(instanceOfStudent.showStudentData());
+  console.log(instanceOfPerson.showSomething()); //method return undefined with value
+  const instanceOfStudent = new Student("vumi", 21, "hariyana", true);
+  console.log(instanceOfStudent.showStudentData()); //method return undefined with value
   //finally we can access any property or method from Person to Student/. causes we do inheritanse Person into Student.
 }
